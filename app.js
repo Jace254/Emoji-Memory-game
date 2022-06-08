@@ -29,7 +29,7 @@ const Cards = [
     },
     {
         name: 'Wink',
-        img: 'images/Wink.png'
+        img: 'images/WInk.png'
     },
     {
         name: 'HappySweat',
@@ -61,7 +61,7 @@ const Cards = [
     },
     {
         name: 'Wink',
-        img: 'images/Wink.png'
+        img: 'images/WInk.png'
     }
 ]
 

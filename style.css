@@ -4,6 +4,7 @@ body{
     background-color: #47293e;
     font-family: 'VT323', monospace;
     justify-content: center;
+    color: #fff;
 }
 h1{
     font-family: 'VT323', monospace;
@@ -67,6 +68,14 @@ h1{
     color: white;
     box-shadow: 0px 0px 10px 0px #fff;
 }
+footer{
+    text-align: center;
+    padding-top: 70px;
+}
+a{
+    text-decoration: none;
+    color: aquamarine;
+}
 
 @media  only screen and (min-width: 600px) and (min-height: 760px) {
     h1{
@@ -90,5 +99,13 @@ h1{
         height: 75px;
         border-radius: 10px;
     }
-    
+    footer{
+        display: flex;
+        text-align: left;
+        padding-top: 0px;
+        height: 10px;
+    }
+    a{
+        padding-left: 10px;
+    }
 }

@@ -158,8 +158,7 @@ function flipCard(){
             isBoardLocked = true;
             setTimeout(checkMatch, 500);
         }
-    }
-    
+    }  
 }
 function unflipCards(){
     const cards = document.querySelectorAll('img');

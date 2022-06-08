@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=VT323&display=swap');
+
+body{
+    background-color: #47293e;
+}
+h1{
+    font-family: 'Kenia',monospace;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#Won{
+    padding-top: 50px;
+    color: yellow;
+}
+
+.display{
+    margin: auto;
+    width: 316px;
+    height: 316px;
+}
+#cards{
+    box-shadow: 7.5px 7.5px 30px 0px  #291824,
+                -5px -5px 30px 0px #784669;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+#card{
+    width: 75px;
+    height: 75px;
+    padding: 2px;
+    border-radius: 20px;
+    
+}
+
+@media  only screen and (min-width: 600px) {
+    .display{
+        margin: auto;
+        width: 416px;
+        height: 416px;
+    }
+
+    #card{
+        width: 100px;
+        height: 100px;
+        padding: 2px;
+        border-radius: 20px;
+        
+    }
+    
+}

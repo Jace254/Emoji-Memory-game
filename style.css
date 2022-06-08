@@ -47,6 +47,7 @@ h1{
 }
 #button{
     text-align: center;
+    height: 50px;
 }
 #play{
     padding-bottom: 5px;
@@ -71,6 +72,7 @@ h1{
 footer{
     text-align: center;
     padding-top: 70px;
+    
 }
 a{
     text-decoration: none;
@@ -102,8 +104,10 @@ a{
     footer{
         display: flex;
         text-align: left;
-        padding-top: 0px;
+        padding-top: 20px;
         height: 10px;
+        position:fixed;
+        
     }
     a{
         padding-left: 10px;
